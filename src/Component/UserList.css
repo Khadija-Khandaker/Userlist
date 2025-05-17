@@ -1,0 +1,47 @@
+.user-list-container {
+  max-width: 500px;
+  margin: 50px auto;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #c5eef0;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.user-list-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.user-list-container input {
+  padding: 10px;
+  border: 1px solid #73f5f5;
+  border-radius: 6px;
+  width: 80%;
+  margin-bottom: 20px;
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.user-list-container input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+.user-list-container p {
+  background-color: #ffffff;
+  margin: 8px auto;
+  padding: 10px;
+  width: 90%;
+  border-radius: 6px;
+  color: #444;
+  border: 1px solid #ddd;
+  transition: transform 0.2s ease;
+}
+
+.user-list-container p:hover {
+  transform: scale(1.02);
+  background-color: #f1dcca;
+}
